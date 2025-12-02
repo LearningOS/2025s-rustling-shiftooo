@@ -23,7 +23,7 @@ fn replace_me(input: &str) -> String {
 #[cfg(test)]
 mod tests {
     use super::*;
-
+    
     #[test]
     fn trim_a_string() {
         assert_eq!(trim_me("Hello!     "), "Hello!");
